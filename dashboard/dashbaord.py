@@ -7,8 +7,8 @@ import streamlit as st
 sns.set(style='dark')
 
 # Load dataset
-daily_df = pd.read_csv("../data/day.csv")
-hr_df = pd.read_csv("../data/hour.csv")
+daily_df = pd.read_csv("day.csv")
+hr_df = pd.read_csv("hour.csv")
 
 # Konversi tanggal
 daily_df['dteday'] = pd.to_datetime(daily_df['dteday'])
