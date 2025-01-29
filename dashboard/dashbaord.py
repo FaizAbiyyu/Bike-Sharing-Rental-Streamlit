@@ -7,7 +7,7 @@ import streamlit as st
 sns.set(style='dark')
 
 # Load dataset
-df = pd.read_csv("/mnt/data/all_data.csv")
+df = pd.read_csv("dashboard/all_data.csv")
 
 # Konversi tanggal
 df['dteday'] = pd.to_datetime(df['dteday'])
