@@ -85,4 +85,4 @@ sns.scatterplot(x='hum', y='count', data=main_df, ax=axes[1])
 sns.scatterplot(x='windspeed', y='count', data=main_df, ax=axes[2])
 st.pyplot(fig)
 
-st.caption('Copyright (c) 2023')
+st.caption('Copyright (c) 2025 FaizAbiyyu')
